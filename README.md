@@ -5,6 +5,8 @@
 
 This is a work in progress of deploying elm-pages 3.0 alpha on [Vercel](https://vercel.com).
 
+Demo: [elm-pages.vercel.app](https://elm-pages.vercel.app)
+
 ## Status
 
 - [x] `RouteBuilder.preRender` ([Static Files](https://vercel.com/docs/build-output-api/v3#vercel-primitives/static-files))
