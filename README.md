@@ -14,7 +14,6 @@ Demo: [elm-pages.vercel.app](https://elm-pages.vercel.app)
 - [x] `RouteBuilder.serverRender` ([Serverless Functions](https://vercel.com/docs/build-output-api/v3#vercel-primitives/serverless-functions))
 - [ ] `ApiRoute.preRender`
 - [ ] `ApiRoute.preRenderWithFallback`
-- [ ] `ApiRoute.preRenderWithFallback`
 - [ ] `ApiRoute.serverRender`
 
 ## Deployment
