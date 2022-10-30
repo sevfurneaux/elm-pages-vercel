@@ -1,5 +1,5 @@
 > **Warning**
-> This elm-pages 3.0 alpha Vercel adapter is very much a work in progress, so can also be considered alpha.
+> This Vercel adapter for elm-pages 3.0 alpha is very much a work in progress, so can also be considered alpha.
 
 # elm-pages 3.0 alpha Vercel adapter
 
