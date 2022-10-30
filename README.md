@@ -21,7 +21,7 @@ The current implementation uses [Vercel's Build Output API (v3)](https://vercel.
 
 In the future, it'll hopefully be possible to deploy through Vercel's normal build pipeline 🤞.
 
-## `RouteBuilder.preRenderWithFallback`
+## RouteBuilder.preRenderWithFallback
 
 `RouteBuilder.preRenderWithFallback` uses Vercel's [Prerender Functions](https://vercel.com/docs/build-output-api/v3#vercel-primitives/prerender-functions) to cache the output on Vercel's Edge Network.
 
