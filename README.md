@@ -5,9 +5,9 @@
 
 This is a work in progress of deploying elm-pages 3.0 alpha on [Vercel](https://vercel.com).
 
-- [x] preRender ([Static Files](https://vercel.com/docs/build-output-api/v3#vercel-primitives/static-files))
-- [x] preRenderWithFallback ([Prerender Functions](https://vercel.com/docs/build-output-api/v3#vercel-primitives/prerender-functions))
-- [x] serverRender ([Serverless Functions](https://vercel.com/docs/build-output-api/v3#vercel-primitives/serverless-functions))
+- [x] RouteBuilder.preRender ([Static Files](https://vercel.com/docs/build-output-api/v3#vercel-primitives/static-files))
+- [x] RouteBuilder.preRenderWithFallback ([Prerender Functions](https://vercel.com/docs/build-output-api/v3#vercel-primitives/prerender-functions))
+- [x] RouteBuilder.serverRender ([Serverless Functions](https://vercel.com/docs/build-output-api/v3#vercel-primitives/serverless-functions))
 - [ ] ApiRoute.preRender
 - [ ] ApiRoute.preRenderWithFallback
 - [ ] ApiRoute.preRenderWithFallback
