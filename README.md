@@ -1,46 +1,14 @@
-# README
+> **Warning**
+> This elm-pages 3.0 alpha Vercel adapter is very much a work in progress, so can also be considered alpha.
 
-This is a starter to try the elm-pages 3.0 alpha. Any feedback would be very helpful for getting the release ready to go!
+# elm-pages 3.0 alpha Vercel adapter
 
-You can try this out on Netlify in just a couple of clicks with this button:
+This is a work in progress of deploying elm-pages 3.0 alpha on [Vercel](https://vercel.com).
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/dillonkearns/elm-pages-3-alpha-starter)
-
-## Setup Instructions
-
-You can clone this repo with `git clone https://github.com/dillonkearns/elm-pages-3-alpha-starter.git`.
-
-`npm install` from the cloned repo. Before running the dev server or build, make sure to install Lamdera (see below).
-
-### Install Lamdera
-
-[Install Lamdera with these instructions](https://dashboard.lamdera.app/docs/download).
-
-`elm-pages` 3.0 uses the lamdera compiler, which is a superset of the Elm compiler with some extra functionality to automatically serialize Elm types to Bytes. That means there is no more `OptimizedDecoder` API, you can just use regular `elm/json` Decoders! And no more `DataSource.distill`, since types are now automatically serialized all those optimizations come for free.
-
-### Debugging Lamdera Errors
-
-Sometimes Lamdera will give compiler errors due to corrupted dependency cache. These messages will display a note at the bottom:
-
-```
--- PROBLEM BUILDING DEPENDENCIES ---------------
-
-...
-
-
-Note: Sometimes `lamdera reset` can fix this problem by rebuilding caches, so
-give that a try first.
-```
-
-Be sure to use `lamdera reset` to reset the caches for these cases. See more info about that in the Lamdera docs: https://dashboard.lamdera.app/docs/ides-and-tooling#problem-corrupt-caches
-
-### Docs
-
-Check out [the 3.0 Package Docs](https://elm-doc-preview.netlify.app/?repo=dillonkearns%2Felm-pages&version=serverless-latest). The 3.0 docs are still a work in progress. As part of the final release, I will be going through and filling in documentation and updating missing docs. Feel free to make a pull request to update or add docs, or share feedback on the APIs and naming.
-
-You can also use `npx elm-pages docs` from your project to view the documentation for the `RouteBuilder` module.
-
-## Running `elm-pages codegen` command
-
-- `npm install`
-- `npx elm-pages codegen Cli User.Id_` - now you can try out the generator! And you can tweak it, or even define new generator modules in the `codegen/` folder!
+- [x] preRender ([Static Files](https://vercel.com/docs/build-output-api/v3#vercel-primitives/static-files))
+- [x] preRenderWithFallback ([Prerender Functions](https://vercel.com/docs/build-output-api/v3#vercel-primitives/prerender-functions))
+- [x] serverRender ([Serverless Functions](https://vercel.com/docs/build-output-api/v3#vercel-primitives/serverless-functions))
+- [] ApiRoute.preRender
+- [] ApiRoute.preRenderWithFallback
+- [] ApiRoute.preRenderWithFallback
+- [] ApiRoute.serverRender
