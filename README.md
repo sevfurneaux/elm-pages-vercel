@@ -18,3 +18,5 @@ This is a work in progress of deploying elm-pages 3.0 alpha on [Vercel](https://
 ## Deployment
 
 The current implementation uses [Vercel's Build Output API (v3)](https://vercel.com/docs/build-output-api/v3#) for deployment. This means the project is built locally (`yarn build`) and then deployed using `yarn deploy` (`vercel deploy --prebuilt --prod`).
+
+In the future, it'll hopefully be possible to deploy through Vercel's normal build pipeline 🤞.
