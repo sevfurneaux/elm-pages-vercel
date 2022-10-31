@@ -10,8 +10,8 @@ Demo: [elm-pages.vercel.app](https://elm-pages.vercel.app)
 ## Status
 
 - [x] `RouteBuilder.preRender` ([Static Files](https://vercel.com/docs/build-output-api/v3#vercel-primitives/static-files))
-- [x] `RouteBuilder.preRenderWithFallback` ([Prerender Functions](https://vercel.com/docs/build-output-api/v3#vercel-primitives/prerender-functions))
 - [x] `RouteBuilder.serverRender` ([Serverless Functions](https://vercel.com/docs/build-output-api/v3#vercel-primitives/serverless-functions))
+- [] `RouteBuilder.preRenderWithFallback` ([Prerender Functions](https://vercel.com/docs/build-output-api/v3#vercel-primitives/prerender-functions))
 - [ ] `ApiRoute.preRender`
 - [ ] `ApiRoute.preRenderWithFallback`
 - [ ] `ApiRoute.serverRender`
