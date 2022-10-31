@@ -9,9 +9,12 @@ Demo: [elm-pages.vercel.app](https://elm-pages.vercel.app)
 
 ## Status
 
+- [] `SPLAT` routes
 - [x] `RouteBuilder.preRender` ([Static Files](https://vercel.com/docs/build-output-api/v3#vercel-primitives/static-files))
 - [x] `RouteBuilder.serverRender` ([Serverless Functions](https://vercel.com/docs/build-output-api/v3#vercel-primitives/serverless-functions))
-- [] `RouteBuilder.preRenderWithFallback` ([Prerender Functions](https://vercel.com/docs/build-output-api/v3#vercel-primitives/prerender-functions))
+- [] `RouteBuilder.preRenderWithFallback` ([Prerender Functions (Incremental Static Regeneration)](https://vercel.com/docs/build-output-api/v3#vercel-primitives/prerender-functions))
+  - [ ] [Preview Mode](https://vercel.com/docs/build-output-api/v3#features/preview-mode)
+  - [ ] [On-Demand Incremental Static Regeneration](https://vercel.com/docs/build-output-api/v3#features/on-demand-incremental-static-regeneration-isr)
 - [ ] `ApiRoute.preRender`
 - [ ] `ApiRoute.preRenderWithFallback`
 - [ ] `ApiRoute.serverRender`
